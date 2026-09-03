@@ -1,17 +1,52 @@
 ---
-
+import Layout from './layouts/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <h1 class="text-2xl tracking-wider mb-4">Norte</h1>
+  <p class="text-neutral-400 mb-20">Desarrollo soluciones digitales</p>
+
+  <h2 class="text-xl tracking-wide">
+    Creo páginas web y aplicaciones a medida. <br />
+    Con el objetivo de ayudarte a ahorrar tiempo, evitar procesos manuales repetitivos y darte visibilidad en Internet.
+  </h2>
+
+  <div class="mb-30 mt-34">
+    <h2 class="text-xl mb-6 tracking-wide">Páginas web</h2>
+    <p class="mb-6">
+      Para negocios que quieren tener una presencia profesional en Internet y llegar a más clientes.
+    </p>
+    <div class="mt-14">
+      <a href="/servicios/paginas-web" class="text-neutral-400 p-2 hover:text-neutral-600">Ver servicio</a>
+    </div>
+    <hr class="w-48 h-1 mx-auto my-4 bg-neutral-400/10 border-0 md:my-10">
+  </div>
+
+  <div class="mb-30">
+    <h2 class="text-xl mb-6 tracking-wide">Aplicaciones y automatización</h2>
+    <p class="mb-6">
+      Desarrollo herramientas adaptadas a tu negocio para automatizar tareas, reducir errores y tener toda tu información bajo control.
+    </p>
+    <div class="mt-14">
+      <a href="/servicios/aplicaciones" class="text-neutral-400 p-2 hover:text-neutral-600">Ver servicio</a>
+    </div>
+    <hr class="w-48 h-1 mx-auto my-4 bg-neutral-400/10 border-0 md:my-10">
+  </div>
+
+  <div class="mb-30">
+    <h2 class="text-xl mb-6 tracking-wide">Informática a domicilio</h2>
+    <p class="mb-6">
+      Para particulares y pequeños negocios que necesiten ayuda con sus equipos.
+    </p>
+    <div class="mt-14">
+      <a href="/servicios/informatico-a-domicilio" class="text-neutral-400 p-2 hover:text-neutral-600">Ver servicio</a>
+    </div>
+    <hr class="w-48 h-1 mx-auto my-4 bg-neutral-400/10 border-0 md:my-10">
+  </div>
+
+  <div class="mt-16">
+    <p class="text-neutral-400 mb-2">¿No sabes qué necesitas?</p>
+    <p class="mb-6">Cuéntame qué quieres conseguir y buscamos la mejor solución.</p>
+    <a href="/contacto" class="text-neutral-400 p-2 hover:text-neutral-600">Contacta con nosotros</a>
+  </div>
+</Layout>

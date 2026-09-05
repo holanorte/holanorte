@@ -8,5 +8,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: 'https://holanorte.github.io'
+  site: 'https://holanorte.github.io',
+  base: 'holanorte'
 });

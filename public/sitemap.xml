@@ -1,31 +1,20 @@
-<!–?xml version=’1.0′ encoding=’UTF-8′?–>
-
-<urlset xmlns:xsi=“http://www.w3.org/2001/XMLSchema-instance” xsi:schemalocation=“http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd” xmlns=“http://www.sitemaps.org/schemas/sitemap/0.9”>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-
-    <loc>https://holanorte.github.io/</loc>
-
+    <loc>https://holanorte.github.io/holanorte/</loc>
   </url>
 
   <url>
-
-    <loc>https://holanorte.github.io/servicios/paginas-web-en-alcoy-y-alrededores</loc>
-
+    <loc>https://holanorte.github.io/holanorte/servicios/paginas-web-en-alcoy-y-alrededores</loc>
   </url>
 
   <url>
-
-    <loc>https://holanorte.github.io/servicios/aplicaciones-en-alcoy-y-alrededores</loc>
-
+    <loc>https://holanorte.github.io/holanorte/servicios/aplicaciones-en-alcoy-y-alrededores</loc>
   </url>
 
   <url>
-
-    <loc>https://holanorte.github.io/servicios/informatico-a-domicilio-en-alcoy-y-alrededores</loc>
-
+    <loc>https://holanorte.github.io/holanorte/servicios/informatico-a-domicilio-en-alcoy-y-alrededores</loc>
   </url>
-
-
 
 </urlset>

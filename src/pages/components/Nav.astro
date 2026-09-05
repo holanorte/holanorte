@@ -1,13 +1,33 @@
 ---
 ---
+
 <header class="mb-16">
   <nav class="flex flex-row space-x-8 justify-end">
     <a href="/" class="p-2">Norte</a>
-    <a href="/servicios/paginas-web" class="p-2">Paginas Web</a>
-    <a href="/servicios/aplicaciones" class="p-2">Aplicaciones</a>
-    <a href="/servicios/informatico-a-domicilio" class="p-2">informatico a domicilio</a>
-    <a href="/casos-de-exito" class="p-2">Casos de exito</a>
+
+    <div class="relative">
+      <button id="servicios-button" type="button" class="cursor-pointer p-2">
+        Servicios
+      </button>
+      <div id="servicios-dropdown" class="absolute text-left flex flex-col invisible opacity-0 transition-opacity">
+        <a href="/servicios/paginas-web-en-alcoy-y-alrededores" class="p-2">Páginas Web</a>
+        <a href="/servicios/aplicaciones-en-alcoy-y-alrededores" class="p-2">Aplicaciones</a>
+        <a href="/servicios/informatico-a-domicilio-en-alcoy-y-alrededores" class="p-2">
+          Informático a domicilio
+        </a>
+      </div>
+    </div>
+
     <a href="/contacto" class="p-2">Contacto</a>
-    <a href="/memoria" class="p-2">Memoria</a>
   </nav>
 </header>
+
+<script>
+  const button = document.querySelector("#servicios-button");
+  const dropdown = document.querySelector("#servicios-dropdown");
+
+  button?.addEventListener("click", () => {
+    dropdown?.classList.toggle("invisible");
+    dropdown?.classList.toggle("opacity-0");
+  });
+</script>
